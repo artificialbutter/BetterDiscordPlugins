@@ -1,6 +1,6 @@
 /**
  * @name Moyai
- * @version 0.0.2
+ * @version 0.0.3
  * @description Moyai
  * @author artificialbutter
  * @authorId 532053122017787924
@@ -11,7 +11,7 @@
 	
 	/* Configuration */
 	const config = {info: {name: "Moyai", authors: [{name: "artificialbutter", discord_id: "532053122017787924", github_username: "ArtificialButter", twitter_username: "artificialbuttr"}],
-     version: "0.0.1", description: "Moyai", github: "https://github.com/artificialbutter/BetterDiscordPlugins/blob/main/Moyai/moyai.plugin.js", 
+     version: "0.0.3", description: "Moyai", github: "https://github.com/artificialbutter/BetterDiscordPlugins/blob/main/Moyai/moyai.plugin.js", 
      github_raw: "https://raw.githubusercontent.com/artificialbutter/BetterDiscordPlugins/main/Moyai/moyai.plugin.js"}, 
      defaultConfig: [{id: "setting", name: "Sound Settings", type: "category", collapsible: true, shown: true, settings: [{id: "LimitChan", name: "Limit to the current channel only.", note: "When enabled, sound effects will only play within the currently selected channel.", type: "switch", value: true}, {id: "delay", name: "Sound effect delay.", note: "The delay in miliseconds between each sound effect.", type: "slider", value: 200, min: 10, max: 1000, renderValue: v => Math.round(v) + "ms"}, {id: "volume", name: "Sound effect volume.", note: "How loud the sound effects will be.", type: "slider", value: 1, min: 0.01, max: 1, renderValue: v => Math.round(v*100) + "%"}]}], 
      changelog: [{title: "New Stuff", items: ["Actually works now!"]}]};
